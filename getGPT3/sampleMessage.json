@@ -1,0 +1,28 @@
+{
+  "message": {
+    "isReply": true,
+    "from": {
+      "displayName": "Todd Warren",
+      "emailAddress": "todd@toddwinc.com"
+    },
+    "to": [
+      { "displayName": "Bob Rapp", "emailAddress": "bob.rapp@envorso.com" },
+      {
+        "displayName": "Linda Schactler",
+        "emailAddress": "linda@wordmaven.info"
+      }
+    ],
+    "cc": [
+      { "displayName": "Adrian Balfour", "emailAddress": "adrian@envorso.com" },
+      {
+        "displayName": "Jeremiah Serephine",
+        "emailAddress": "jeremiah@envorso.com"
+      }
+    ],
+    "bcc": [],
+    "subject": "re: Rough draft, Software dev white paper",
+    "body": "Great comments - Linda - maybe we put this in the front in the problem looks like this so we have a set of solutions like this…\n      \n                  Get Outlook for iOS\n                  ________________________________________\n                  From: Todd Warren <todd@envorso.com>\n                  Sent: Tuesday, January 24, 2023 8:05:55 PM\n                  To: Bob Rapp <Bob.Rapp@envorso.com>; Linda Schactler <linda@wordmaven.info>; Jeremiah Seraphine <Jeremiah@envorso.com>; Todd Warren <todd@envorso.com>; Adrian Balfour <Adrian@envorso.com>; Scott Tobin <scott.tobin@envorso.com>; Jeff Henshaw <jeff.henshaw@envorso.com>\n                  Subject: RE: Rough draft, Software dev white paper \n                   \n                  I think we are still missing helping the reader understand that they are the “before” picture in the before and after.  That was what I tried to get across in the blog post the pithy folks helped me with.  For example you know you are in troube in software if:\n                  1.\tYou are spending lots of money on consultants\n                  2.\tThe size of the software team and budget seems to be growing faster than the value they deliver\n                  3.\tYou aren’t sure you have software leaders that are competitive with your new high tech competitors\n                  4.\tYou are loosing your best software people to others\n                   \n                  From: Bob Rapp <Bob.Rapp@envorso.com> \n                  Sent: Tuesday, January 24, 2023 1:55 PM\n                  To: Linda Schactler <linda@wordmaven.info>; Jeremiah Seraphine <Jeremiah@envorso.com>; Todd Warren <todd@envorso.com>; Adrian Balfour <Adrian@envorso.com>; Scott Tobin <scott.tobin@envorso.com>; Bob Rapp <Bob.Rapp@envorso.com>; Jeff Henshaw <jeff.henshaw@envorso.com>\n                  Subject: Fwd: Rough draft, Software dev white paper\n                   \n                   \n                  Team - Linda did a great  amazing, splendid job of taking the outline that Jeremiah, I and team built and my first draft via voice into a much more finished document.\n                   \n                  Please review - turn comments on in word - and see how to make it better.\n                   \n                  1.\twhat is missing\n                  2.\tWhat is wrong\n                  3.\tWhat is great - need more of\n                  4.\tWhat we missed \n                  Wahooo!\n                  Get Outlook for iOS\n                  ________________________________________\n                  From: Linda Schactler <linda@wordmaven.info>\n                  Sent: Tuesday, January 24, 2023 12:23:48 PM\n                  To: Jeremiah Seraphine <Jeremiah@envorso.com>; Bob Rapp <Bob.Rapp@envorso.com>; Seraphine, Jeremiah (J.) <jseraph1@ford.com>\n                  Subject: Rough draft, Software dev white paper \n                   \n                  Happy Tuesday! \n                   \n                  Attached please find a translation of the notes Bob sent as well as the original brain dump. \n                   \n                  The new document includes sections of like subject matter,  tables/charts where they were suggested or seemed to be needed, and a few quotes--not all from the automotive sector. (It would be good to include an Adrian quote.....)\n                   \n                  The formula for business white papers says they should be five to eight pages and\n                  •\tthey need not to look like a sales pitch\n                  •\tshould have source documentation and actual data\n                  •\tan executive summary at the beginning (for those without time to read)\n                  •\tkey takeaways at the end \n                  •\tcontact info. \n                   \n                  Please review and then let's discuss where we need to add, revise and eliminate.  \n                   \n                  LS\n                   \n                  \n                  \n                  Linda Schactler\n                  WordMaven CEO\n                  531 Edgemont Loop Road\n                  Ellensburg, WA\n                  linda@wordmaven.info, 509-607-4103 \n"
+  },
+  "replyPrompt": "let linda know she's on the write track but we need to provide more references, like HBS articles on Apples's technical career track",
+  "errorState": { "message": "", "hasError": false }
+}

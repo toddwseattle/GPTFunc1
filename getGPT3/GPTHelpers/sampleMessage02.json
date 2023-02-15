@@ -1,0 +1,39 @@
+{
+  "message": {
+    "isReply": true,
+    "from": {
+      "emailAddress": "todd@toddwinc.com",
+      "displayName": "todd@toddwinc.com"
+    },
+    "to": [
+      {
+        "emailAddress": "jeff.henshaw@envorso.com",
+        "displayName": "jeff.henshaw@envorso.com"
+      },
+      {
+        "emailAddress": "amelia@pithywordsmithery.com",
+        "displayName": "amelia@pithywordsmithery.com"
+      },
+      { "emailAddress": "todd@envorso.com", "displayName": "todd@envorso.com" }
+    ],
+    "cc": [
+      {
+        "emailAddress": "Candice@envorso.com",
+        "displayName": "Candice@envorso.com"
+      },
+      {
+        "emailAddress": "Adrian@envorso.com",
+        "displayName": "Adrian@envorso.com"
+      },
+      {
+        "emailAddress": "scott.tobin@envorso.com",
+        "displayName": "scott.tobin@envorso.com"
+      }
+    ],
+    "bcc": [],
+    "subject": "RE: Can we re-do this post?",
+    "body": "There is a way with some of the analytics tools; even bitly; to get some of the engagement metrics.   Please name some other content engagement analytics tools.   Jeremiah may have some as well\r\n \r\nFrom: Jeff Henshaw <jeff.henshaw@envorso.com> \r\nSent: Wednesday, February 1, 2023 8:34 AM\r\nTo: Amelia Forczak <amelia@pithywordsmithery.com>; Todd Warren <todd@envorso.com>\r\nCc: Candice Kriel <Candice@envorso.com>; Adrian Balfour <Adrian@envorso.com>; Scott Tobin <scott.tobin@envorso.com>\r\nSubject: Re: Can we re-do this post?\r\n \r\nThanks for fielding the feedback, Amelia. I have no reservations about trusting the A/B data that shows more views when tricks like this are used. I spent a few years of my past life managing Bing’s search results page, optimizing for engagement <https://youtu.be/_dGAzDd18x4>  (this was a strategy that I started in 2010 and is still being built upon in Bing today), with days spent poring over mega-scale data. We developed techniques to not just track clicks, but to weight data based upon nature of engagement. \r\n \r\nWhat I’d like to see us do here is begin to understand the nature of engagement – positive or negative – that comes with the upticks. LinkedIn may not give us nuances like dwell-time or click-through status on each post (do they? Last I checked, not), but we should review each case for downstream impact.\r\n \r\nLet me share an example from last night: @Todd Warren <mailto:todd@envorso.com> , the author of the blog post himself, re-shared Envorso’s post. That’s the dream scenario of engagement! It’s a duplication of one’s post to an entirely new community.  "
+  },
+  "replyPrompt": "There is a way with some of the analytics tools; even bitly; to get some of the engagement metrics.   Please name some other content engagement analytics tools.   Jeremiah may have some as well\r\n \r\n",
+  "errorState": { "hasError": false, "message": "" }
+}

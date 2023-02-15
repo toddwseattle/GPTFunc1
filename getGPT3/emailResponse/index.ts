@@ -39,12 +39,15 @@ export function emailResponsePrompt(
 }
 
 export function createGPTsuggestion(rrSuggestion: ReplyRightSuggestionData) {
-  const ResponseFrame = `Create a reply to the following message from ${rrSuggestion.message.from.displayName} <${rrSuggestion.message.from.emailAddress}, returned as a JSON object with the fields from,to,cc,subject,and body.  from,to, and cc should be returned as structures with two fields, emailAddress and displayName. `;
+  // removed the following from the prompt that is sent to GPT3 that asks for json structure.
+  const ResponseFrame = `Create a reply to the following message from ${rrSuggestion.message.from.displayName} <${rrSuggestion.message.from.emailAddress},`;
   return `${ResponseFrame} responding to  ${emailAddressString(
     rrSuggestion.message.to
   )} with the subject ${
     rrSuggestion.message.subject
-  }.   The reply should expand on this prompt or suggestion ${
+  }.   The reply should expand on this prompt or suggestion but should not repeate the main message: ${
     rrSuggestion.replyPrompt
-  }.\r\nHere is the body of the message ${rrSuggestion.message.body}`;
+  }.\r\nHere is a portion of body of the message that is being replied to that conforms to length limit of the api; so it may be missing some original parts that started the email thread:${
+    rrSuggestion.message.body
+  }`;
 }

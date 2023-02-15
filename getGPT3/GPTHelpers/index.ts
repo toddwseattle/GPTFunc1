@@ -44,10 +44,12 @@ export async function GPTCompletion(
   const openai = new OpenAIApi(configuration);
   let config = {
     model: "text-davinci-003",
-    temperature: 0,
+    temperature: 1,
     max_tokens: 200,
     ...partialConfig,
   } as CreateCompletionRequest;
+  if (!(partialConfig.prompt && partialConfig.prompt.length > 0))
+    return { status: "error", message: "no prompt provided" };
   try {
     const ChatAPIResponse = await openai.createCompletion(config);
     let returnData: GPTCompletionData = {

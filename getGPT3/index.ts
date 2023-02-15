@@ -13,14 +13,16 @@ const httpTrigger: AzureFunction = async function (
     req.query.prompt ||
     (req.body && req.body.prompt) ||
     "give a short explaination of a good prompt for chatGPT";
-  const configuration = new Configuration({
-    organization: "org-8SuCfBpjLRMRFkECyMYceJOh",
-    apiKey: process.env.CHAT_GPT_API,
-  });
   const action = req.query.action;
-  const openai = new OpenAIApi(configuration);
   if (action === "reply") {
-    const prompt = req.body as unknown as ReplyRightSuggestionData;
+    let prompt = req.body;
+    if (typeof prompt === "string") {
+      prompt = JSON.parse(prompt) as unknown as ReplyRightSuggestionData;
+      // truncate body to 4000 characters if it is longer otherwise api rejects
+      prompt.message.body = prompt.message.body.substring(0, 4000);
+    } else if (prompt.message) {
+      prompt = prompt as unknown as ReplyRightSuggestionData;
+    }
     if (prompt) {
       const emailSuggestionText = createGPTsuggestion(prompt);
       try {
